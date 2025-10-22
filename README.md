@@ -111,6 +111,22 @@ Bu bağlantıya tıklayarak sohbet arayüzüne erişebilirsin. 💬
    * **LangChain agent** bu bilgileri kullanarak bağlamlı yanıt üretir.
 5. Yanıt, Gradio arayüzünde kullanıcıya gösterilir.
 
+🧠 Çözüm Mimarisi
+🔹 Kullanılan Teknolojiler
+LangChain – RAG pipeline ve agent yönetimi
+Chroma – Vektör tabanlı bilgi depolama
+Sentence-Transformers (E5-Large) – Anlamsal embedding üretimi
+CrossEncoder (MiniLM) – Sonuç sıralama (re-ranking)
+Gradio – Web arayüzü
+Google Gemini Flash – Metin üretimi (LLM)
+Python-dotenv – API anahtarlarının güvenli yönetimi
+🔹 Mimarinin Akışı
+Kullanıcı, Gradio arayüzünden soru sorar.
+Soru embedding’e çevrilir ve Chroma vektör deposunda benzer belgeler aranır.
+En alakalı belgeler retrieve_context() fonksiyonuyla elde edilir.
+Elde edilen bağlam Gemini modeline aktarılır.
+Model, hem bağlam hem de geçmiş sohbet üzerinden anlamlı bir yanıt üretir.
+Yanıt Gradio arayüzünde görüntülenir.
 ---
 
 ## 🧪 Test / Değerlendirme
