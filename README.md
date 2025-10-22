@@ -85,6 +85,19 @@ Bu bağlantıya tıklayarak sohbet arayüzüne erişebilirsin. 💬
 <img width="1594" height="850" alt="mikroeko2" src="https://github.com/user-attachments/assets/6a9c5857-e8fa-4ca8-aa17-ebcedd2a1c54" />
 
 ---
+💻 Web Arayüzü
+
+
+
+Proje Gradio tabanlı bir web arayüzü sunmaktadır.
+Aşağıdaki bağlantıdan test edebilirsiniz 👇
+
+
+
+
+🔗 Canlı Demo:
+https://089624baf7473d4e65.gradio.live/
+---
 
 ## 🧩 Proje Yapısı
 
@@ -112,6 +125,7 @@ Bu bağlantıya tıklayarak sohbet arayüzüne erişebilirsin. 💬
 5. Yanıt, Gradio arayüzünde kullanıcıya gösterilir.
 
 🧠 Çözüm Mimarisi
+
 🔹 Kullanılan Teknolojiler
 1. LangChain – RAG pipeline ve agent yönetimi
 2. Chroma – Vektör tabanlı bilgi depolama
