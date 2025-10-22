@@ -102,7 +102,7 @@ Bu bağlantıya tıklayarak sohbet arayüzüne erişebilirsin. 💬
 
 ## 🧠 Çalışma Mantığı (Özet)
 
-1. Finans verileri HuggingFace dataset’inden yüklenir.
+1. Finans verileri HuggingFace dataset’inden yüklenir.(Datasetimizin linki https://huggingface.co/datasets/umarigan/turkiye_finance_qa)
 2. Her kayıt, **SentenceTransformer** modeli ile embedding’e dönüştürülür.
 3. Belgeler **Chroma vektör veritabanına** kaydedilir.
 4. Kullanıcı bir soru sorduğunda:
