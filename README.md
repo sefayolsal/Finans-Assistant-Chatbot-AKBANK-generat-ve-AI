@@ -78,6 +78,8 @@ Uygulama çalıştığında terminalde şu şekilde bir bağlantı görünür:
 ```
 Running on public URL: https://xxxx.gradio.live
 ```
+<img width="1594" height="850" alt="mikroeko2" src="https://github.com/user-attachments/assets/6a9c5857-e8fa-4ca8-aa17-ebcedd2a1c54" />
+
 
 Bu bağlantıya tıklayarak sohbet arayüzüne erişebilirsin. 💬
 
