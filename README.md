@@ -117,13 +117,6 @@ Bu test `evaluate_answer()` fonksiyonu ile örnek QA setlerinde yapılabilir.
 
 ---
 
-## 🧰 Gereksinimler
-
-* Python 3.10+
-* İnternet bağlantısı (Gemini API için)
-* 2 GB+ RAM (Chroma işlemleri için önerilir)
-
----
 
 ## 👨‍💻 Geliştirici Notu
 
